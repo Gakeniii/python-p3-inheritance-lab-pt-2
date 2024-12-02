@@ -15,7 +15,6 @@ class ChattyStudent(Student):
         for _ in range (10):
             super().raise_hand()
     
-    
-chatty_student = ChattyStudent()
-chatty_student.hello()
-chatty_student.raise_hand()
+student = ChattyStudent()
+student.hello()
+student.raise_hand()
